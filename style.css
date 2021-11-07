@@ -1,6 +1,35 @@
-.main_title {
+.main__title {
   font-family: "PT+Serif";
 }
-.main_text {
+.main__text {
   font-family: "Roboto";
+}
+.body {
+  margin: 0;
+  border: dashed 1px red;
+}
+.wrapper {
+  margin: auto;
+  width: 80%;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+.logo, .menu {
+  display: inline-block;
+}
+.logo{
+  margin-right: 63%;
+  padding: 40px 0;
+}
+.menu {
+  display: flex;
+  align-items: center;
+}
+.menu__list {
+  padding: 0 13px;
+}
+.menu__list:last-child{
+  padding-right: 0;
 }
