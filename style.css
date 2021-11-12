@@ -21,7 +21,7 @@
 }
 .logo {
   position: relative;
-  margin-right: 63%;
+  /*margin-right: 63%;*/
   padding: 40px 0;
   padding-left: 44px;
   font: bold 24px/31px 'pt_serifbold', arial, helvetica, sans-serif;
