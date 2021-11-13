@@ -116,4 +116,5 @@
 
 .main__button:hover {
   opacity: .5;
+  color: #000;
 }
