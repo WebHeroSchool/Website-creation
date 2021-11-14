@@ -16,9 +16,8 @@
 }
 .logo {
   position: relative;
-  padding: 40px 0;
-  padding-left: 44px;
   font: bold 24px/31px 'pt_serifbold', arial, helvetica, sans-serif;
+
 }
 .logo__circle {
   position: absolute;
@@ -100,12 +99,12 @@
 
 .main__text{
   margin:0 0 41px 0;
-  font: 500 18px/21px "Roboto", arial, helvetica, sans-serif;
+  font: 500 22px/25px "Roboto", arial, helvetica, sans-serif;
 }
 
 .main__button {
   display: inline-block;
-  font: 500 14px/16px "Roboto", arial, helvetica, sans-serif;
+  font: 500 18px/21px "Roboto", arial, helvetica, sans-serif;
   color: #fff;
   background: #0056EC;
   padding: 14px 16px;
