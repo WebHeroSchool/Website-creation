@@ -9,7 +9,7 @@
 .header{
   display: flex;
   justify-content: space-between;
-  margin-bottom: 100px;
+  margin-bottom: 200px;
 }
 .logo, .menu {
   display: inline-block;
@@ -90,8 +90,8 @@
 }
 
 .main__title {
-  margin: 0 0 40px 0;
-  font: 700 50px/66px 'pt_serifbold', arial, helvetica, sans-serif;
+  margin: 0 0 41px 0;
+  font: 700 66px/87px 'pt_serifbold', arial, helvetica, sans-serif;
 }
 
   .main__title-text_highlight{
@@ -115,6 +115,6 @@
 }
 
 .main__button:hover {
-  opacity: .5;
+  opacity .5;
   color: #000;
 }
