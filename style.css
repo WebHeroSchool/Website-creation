@@ -9,13 +9,15 @@
 .header{
   display: flex;
   justify-content: space-between;
-  margin-bottom: 200px;
+  margin-bottom: 206px;
 }
 .logo, .menu {
   display: inline-block;
 }
 .logo {
   position: relative;
+  padding: 40px 0px;
+  padding-right: 44px;
   font: bold 24px/31px 'pt_serifbold', arial, helvetica, sans-serif;
 
 }
