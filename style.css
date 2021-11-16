@@ -43,6 +43,8 @@
 .menu {
   display: flex;
   align-items: center;
+  padding-left: 98px;
+  padding-top: 7px;
 }
 .menu__list {
   position: relative;
@@ -68,6 +70,7 @@
 }
 .menu__list:last-child{
   margin-right: 0;
+  width: 100
 }
 .menu__list_active::after {
   position: absolute;
