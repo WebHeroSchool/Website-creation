@@ -70,7 +70,7 @@
 }
 .menu__list:last-child{
   margin-right: 0;
-  width: 100
+  width: 90px;
 }
 .menu__list_active::after {
   position: absolute;
@@ -93,7 +93,7 @@
   padding: 0 100% 100% 0;
   background: top right no-repeat url(img/mainImg.svg);
   box-sizing: content-box;
-  width: 100%;
+  width: 70%;
 }
 
 .main__title {
