@@ -18,7 +18,7 @@
 
 .logo {
   position: relative;
-  margin-right: 73%;
+  margin-right: 53%;
   padding: 40px 0;
   padding-left: 44px;
   font: bold 24px/31px 'pt_serifbold', arial, helvetica, sans-serif;
@@ -96,7 +96,7 @@
 }
 
 .main {
-  padding: 100px 100% 100% 0;
+  padding-top: 100px;
   background: top right no-repeat url(img/mainImg.svg);
   box-sizing: content-box;
   width: 45%;
