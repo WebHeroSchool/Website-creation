@@ -9,7 +9,7 @@
 .header{
   display: flex;
   justify-content: space-between;
-  margin-bottom: 106px;
+  margin-bottom: 156px;
 }
 .logo, .menu {
   display: inline-block;
@@ -43,8 +43,8 @@
 .menu {
   display: flex;
   align-items: center;
-  padding-left: 81px;
-  padding-top: 7px;
+  padding: 7px 0 0 81px;
+  margin-bottom: 100px;
 }
 .menu__list {
   position: relative;
