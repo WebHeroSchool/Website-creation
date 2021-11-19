@@ -9,7 +9,7 @@
 .header{
   display: flex;
   justify-content: space-between;
-  margin-bottom: 203px;
+  margin-bottom: 206px;
 }
 
 .logo, .menu {
@@ -48,8 +48,7 @@
   display: flex;
   align-items: center;
   padding-top: 7px;
-  padding-left: 95px;
-  margin-bottom: 150px;
+  padding-left: 100px;
 }
 
 .menu__list {
@@ -100,7 +99,7 @@
   padding: 0 100% 100% 0;
   background: top right no-repeat url(img/mainImg.svg);
   box-sizing: content-box;
-  width: 65%;
+  width: 45%;
 }
 
 .main__title {
