@@ -48,8 +48,8 @@
   display: flex;
   align-items: center;
   padding-top: 7px;
-  padding-left: 81px;
-  margin-bottom: 100px;
+  padding-left: 95px;
+  margin-bottom: 150px;
 }
 
 .menu__list {
@@ -100,7 +100,7 @@
   padding: 0 100% 100% 0;
   background: top right no-repeat url(img/mainImg.svg);
   box-sizing: content-box;
-  width: 60%;
+  width: 65%;
 }
 
 .main__title {
