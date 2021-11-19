@@ -43,8 +43,8 @@
 .menu {
   display: flex;
   align-items: center;
-  padding: 7px 0 0 81px;
-  margin-bottom: 100px;
+  padding-top: 7px;
+  padding-right: 81px;
 }
 .menu__list {
   position: relative;
