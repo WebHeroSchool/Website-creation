@@ -9,7 +9,7 @@
 .header{
   display: flex;
   justify-content: space-between;
-  margin-bottom: 206px;
+  margin-bottom: 140px;
 }
 
 .logo, .menu {
@@ -18,7 +18,7 @@
 
 .logo {
   position: relative;
-  margin-right: 53%;
+  margin-right: 80%;
   padding: 40px 0;
   padding-left: 44px;
   font: bold 24px/31px 'pt_serifbold', arial, helvetica, sans-serif;
@@ -96,7 +96,7 @@
 }
 
 .main {
-  padding-top: 100px;
+  padding: 100px 100% 100% 0;
   background: top right no-repeat url(img/mainImg.svg);
   box-sizing: content-box;
   width: 45%;
