@@ -9,11 +9,13 @@
 .header{
   display: flex;
   justify-content: space-between;
-  margin-bottom: 156px;
+  margin-bottom: 200px;
 }
+
 .logo, .menu {
   display: inline-block;
 }
+
 .logo {
   position: relative;
   padding: 40px 0;
@@ -37,15 +39,18 @@
   top: 56%;
   background: #C8DBFB;
 }
+
 .logo__circle_color_dark-blue {
   background: #0056EC;
 }
+
 .menu {
   display: flex;
   align-items: center;
   padding-top: 7px;
   padding-right: 81px;
 }
+
 .menu__list {
   position: relative;
   margin-right: 26px;
@@ -54,6 +59,7 @@
   text-decoration: none;
   transition: opacity .5s;
   }
+
 .menu__list:hover {
   opacity: 0.5;
   box-shadow: inset 5em 5em #0056EC;
@@ -101,7 +107,7 @@
   font: 700 66px/87px 'pt_serifbold', arial, helvetica, sans-serif;
 }
 
-  .main__title-text_highlight{
+.main__title-text_highlight{
     background: #ECF3FF;
 }
 
