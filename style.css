@@ -51,7 +51,7 @@
   display: flex;
   align-items: center;
   padding-top: 7px;
-  padding-left: 200px;
+  padding-left: 160px;
 }
 
 .menu__list {
@@ -108,6 +108,8 @@
 }
 
 .main__title {
+  padding-top: 20px;
+  padding-right: 50px;
   margin: 0 0 41px 0;
   font: 700 66px/87px 'pt_serifbold', arial, helvetica, sans-serif;
 }
