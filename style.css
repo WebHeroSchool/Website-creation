@@ -11,7 +11,7 @@
 .header{
   display: flex;
   justify-content: space-between;
-  margin-bottom: 140px;
+  margin-bottom: 135px;
 }
 
 .logo, .menu {
@@ -20,7 +20,7 @@
 
 .logo {
   position: relative;
-  margin-right: 80%;
+  margin-right: 81%;
   padding: 40px 0;
   padding-left: 44px;
   font: bold 24px/31px 'pt_serifbold', arial, helvetica, sans-serif;
@@ -51,7 +51,7 @@
   display: flex;
   align-items: center;
   padding-top: 7px;
-  padding-left: 26%;
+  padding-left: 25%;
 }
 
 .menu__list {
@@ -101,14 +101,15 @@
 }
 
 .main {
-  padding: 40px 100% 100% 0;
+  padding: 60px 100% 100% 0;
   background: top right no-repeat url(img/mainImg.svg);
   box-sizing: content-box;
-  width: 45%;
+  width: 98%;
 }
 
 .main__title {
   padding-right: 80px;
+  padding-top: 5px;
   margin: 0 0 41px 0;
   font: 700 66px/87px 'pt_serifbold', arial, helvetica, sans-serif;
 }
