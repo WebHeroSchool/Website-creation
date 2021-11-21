@@ -51,7 +51,6 @@
   display: flex;
   align-items: center;
   padding-top: 7px;
-  padding-left: 24%;
 }
 
 .menu__list {
@@ -108,7 +107,7 @@
 }
 
 .main__title {
-  padding-right: 80px;
+  padding-right: 40px;
   padding-top: 5px;
   margin: 0 0 41px 0;
   font: 700 66px/87px 'pt_serifbold', arial, helvetica, sans-serif;
