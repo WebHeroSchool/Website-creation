@@ -20,7 +20,7 @@
 
 .logo {
   position: relative;
-  margin-right: 79%;
+  margin-right: 70%;
   padding: 40px 0;
   padding-left: 44px;
   font: bold 24px/31px 'pt_serifbold', arial, helvetica, sans-serif;
@@ -107,7 +107,7 @@
 }
 
 .main__title {
-  padding-right: 40px;
+  padding-right: 20%;
   padding-top: 5px;
   margin: 0 0 41px 0;
   font: 700 66px/87px 'pt_serifbold', arial, helvetica, sans-serif;
