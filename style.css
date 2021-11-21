@@ -51,7 +51,7 @@
   display: flex;
   align-items: center;
   padding-top: 7px;
-  padding-left: 160px;
+  padding-left: 25%px;
 }
 
 .menu__list {
@@ -101,7 +101,7 @@
 }
 
 .main {
-  padding: 106px 100% 100% 0;
+  padding: 115px 100% 100% 0;
   background: top right no-repeat url(img/mainImg.svg);
   box-sizing: content-box;
   width: 45%;
@@ -111,6 +111,7 @@
   padding-top: 20px;
   padding-right: 50px;
   margin: 0 0 41px 0;
+  width: 25%;
   font: 700 66px/87px 'pt_serifbold', arial, helvetica, sans-serif;
 }
 
