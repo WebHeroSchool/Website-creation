@@ -20,7 +20,7 @@
 
 .logo {
   position: relative;
-  margin-right: 81%;
+  margin-right: 30%;
   padding: 40px 0;
   padding-left: 44px;
   font: bold 24px/31px 'pt_serifbold', arial, helvetica, sans-serif;
@@ -100,10 +100,10 @@
 }
 
 .main {
-  padding: 60px 100% 100% 0;
-  background: top right no-repeat url(img/mainImg.svg);
+  padding: 64px 100% 100% 0;
+  background: top center no-repeat url(img/mainImg.svg);
   box-sizing: content-box;
-  width: 32%;
+  width: 50%;
 }
 
 .main__title {
@@ -117,6 +117,7 @@
 }
 
 .main__text {
+  padding-right: 39%;
   margin:0 0 41px 0;
   font: 500 22px/25px "Roboto", arial, helvetica, sans-serif;
 }
@@ -126,7 +127,7 @@
   font: 500 18px/21px "Roboto", arial, helvetica, sans-serif;
   color: #fff;
   background: #0056EC;
-  padding: 14px 16px;
+  padding: 14px 24px;
   text-decoration: none;
   border-radius: 4px;
   transition: opacity .5s;
