@@ -137,13 +137,11 @@
 }
 
 .bottom__circle {
-  position: absolute;
-  left: 0;
-  bottom: 50%;
-  transform: translateX(-50%);
+  margin-bottom: 40px;
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: #C8DBFB;
+  background: #black;
   opacity .7;
+  display: inline-block;
 }
