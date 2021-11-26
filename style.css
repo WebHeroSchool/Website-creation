@@ -98,7 +98,7 @@
 }
 
 .main {
-  padding: 64px 50% 17% 0;
+  padding: 64px 50% 18% 0;
   background: top right no-repeat url(img/mainImg.svg);
 }
 
@@ -114,7 +114,7 @@
 
 .main__text {
   padding-right: 37%;
-  margin:0 0 46px 0;
+  margin:0 0 44px 0;
   font: 500 22px/25px "Roboto", arial, helvetica, sans-serif;
 }
 
