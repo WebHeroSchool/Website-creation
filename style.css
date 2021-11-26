@@ -21,8 +21,7 @@
 .logo {
   position: relative;
   margin-right: 63%;
-  padding: 40px 0;
-  padding-left: 44px;
+  padding: 35px 0 40px 44px;
   font: bold 24px/31px 'pt_serifbold', arial, helvetica, sans-serif;
 
 }
@@ -50,7 +49,6 @@
 .menu {
   display: flex;
   align-items: center;
-  padding-top: 7px;
 }
 
 .menu__list {
@@ -100,13 +98,13 @@
 }
 
 .main {
-  padding: 64px 50% 10% 0;
+  padding: 64px 50% 17% 0;
   background: top right no-repeat url(img/mainImg.svg);
 }
 
 .main__title {
   padding-top: 6px;
-  margin: 0 0 41px 0;
+  margin: 0 0 33px 0;
   font: 700 66px/87px 'pt_serifbold', arial, helvetica, sans-serif;
 }
 
@@ -116,7 +114,7 @@
 
 .main__text {
   padding-right: 37%;
-  margin:0 0 41px 0;
+  margin:0 0 39px 0;
   font: 500 22px/25px "Roboto", arial, helvetica, sans-serif;
 }
 
