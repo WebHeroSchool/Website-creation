@@ -5,13 +5,14 @@
 
 .wrapper {
   margin: auto;
-  width: 80%;
+  width: 81%;
 }
 
 .header{
   display: flex;
   justify-content: space-between;
   margin: 0 5px 132px 0;
+  padding-left: 10px;
 }
 
 .logo, .menu {
@@ -111,9 +112,9 @@
 }
 
 .main__text {
-  padding-right: 37%;
-  margin:0 0 44px 0;
-  font: 400 22px/25px "Roboto", arial, helvetica, sans-serif;
+  padding: 3px 45% 0 0;
+  margin:0 0 41px 0;
+  font: 400 22px/26px "Roboto", arial, helvetica, sans-serif;
 }
 
 .main__button {
@@ -121,7 +122,7 @@
   font: 500 18px/21px "Roboto", arial, helvetica, sans-serif;
   color: #fff;
   background: #0056EC;
-  padding: 18px 26px;
+  padding: 18px 36px 18px 18px;
   text-decoration: none;
   border-radius: 4px;
   transition: opacity .5s;
