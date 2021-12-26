@@ -107,7 +107,11 @@
 }
 
 .main__title-text_highlight {
-    background: linear-gradient(to bottom, #ECF3FF 80%, #fff 50%);
+    background: #ECF3FF;
+}
+
+.main__title-text_highlight_two {
+  background: #ECF3FF;
 }
 
 .main__text {
