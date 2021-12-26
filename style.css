@@ -1,52 +1,55 @@
-.main__title {
-  font-family: 'pt_serifbold';
-}
-.main__text, .main__button {
-  font-family: "Roboto";
-}
 .body {
   margin: 0;
   border: dashed 1px red;
 }
+
 .wrapper {
   margin: auto;
   width: 80%;
 }
+
 .header{
   display: flex;
   justify-content: space-between;
+  margin: 0 5px 132px 0;
 }
+
 .logo, .menu {
   display: inline-block;
 }
+
 .logo {
   position: relative;
-  padding: 40px 0;
-  padding-left: 44px;
+  padding: 32px 0 40px 40px;
   font: bold 24px/31px 'pt_serifbold', arial, helvetica, sans-serif;
+
 }
 .logo__circle {
   position: absolute;
   left: 0;
-  top: 50%;
+  top: 45%;
   transform: translateY(-50%);
   width: 28px;
   height: 28px;
   border-radius: 50%;
   opacity: .7;
 }
+
 .logo__circle_color_blue {
   left: 8px;
   top: 56%;
   background: #C8DBFB;
 }
+
 .logo__circle_color_dark-blue {
   background: #0056EC;
 }
+
 .menu {
   display: flex;
   align-items: center;
 }
+
 .menu__list {
   position: relative;
   margin-right: 26px;
@@ -54,7 +57,8 @@
   color: #000;
   text-decoration: none;
   transition: opacity .5s;
-  }
+}
+
 .menu__list:hover {
   opacity: 0.5;
   box-shadow: inset 5em 5em #0056EC;
@@ -69,9 +73,11 @@
   height: 3px;
   background: #0056EC;
 }
+
 .menu__list:last-child{
   margin-right: 0;
 }
+
 .menu__list_active::after {
   position: absolute;
   left: 0;
@@ -87,4 +93,58 @@
 
 .menu__list:hover::after, .menu__list_active::after {
   opacity: 1;
+}
+
+.main {
+  padding: 64px 50% 17% 0;
+  background: top right no-repeat url(img/mainImg.svg);
+}
+
+.main__title {
+  padding-top: 9px;
+  margin: 0 0 35px 0;
+  font: 700 66px/87px 'pt_serifbold', arial, helvetica, sans-serif;
+}
+
+.main__title-text_highlight {
+    background: #ECF3FF;
+}
+
+.main__title-text_highlight_two {
+  background: #ECF3FF;
+}
+
+.main__text {
+  padding: 3px 45% 0 0;
+  margin:0 0 38px 0;
+  font: 400 22px/26px "Roboto", arial, helvetica, sans-serif;
+}
+
+.main__button {
+  display: inline-block;
+  font: 500 18px/21px "Roboto", arial, helvetica, sans-serif;
+  color: #fff;
+  background: #0056EC;
+  padding: 19px 33px 17px 19px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: opacity .5s;
+}
+
+.main__button:hover {
+  opacity .5;
+  color: #000;
+}
+
+.bottom {
+  text-align: center;
+}
+
+.bottom__circle {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #C8DBFB;
+  opacity .7;
+  display: inline-block;
 }
